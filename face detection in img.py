@@ -1,9 +1,9 @@
 import cv2
 
-# Load the cascade
+# Load the cascadeclassifier
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Read the input image
-img = cv2.imread('samefacediffmask.jpg')
+#img = cv2.imread('samefacediffmask.jpg')
 img = cv2.imread('multi-faces.jpg ')
 
 
