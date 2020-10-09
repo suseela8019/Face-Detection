@@ -1,10 +1,11 @@
+#importing dependencies
 import cv2
 
-# Load the cascade
+# Loading the cascadeClassifier
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-# Read the input image
-img = cv2.imread('face expressions.jpg ')
 
+# Read the input image using imread
+img = cv2.imread('image_Name.jpg ')
 
 # Convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
